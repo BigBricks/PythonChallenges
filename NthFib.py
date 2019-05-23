@@ -1,9 +1,7 @@
 def nth_fib(n):
     return fibonacci(n - 1)
 
-
 memo = {0: 0, 1: 1}
-
 
 def fibonacci(n):
     if n in memo:
