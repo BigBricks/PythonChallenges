@@ -1,4 +1,3 @@
-import math
 def make_readable(seconds):
     # Do something
     hours = math.floor(seconds/3600)
