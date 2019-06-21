@@ -1,6 +1,5 @@
 from collections import Counter
 def duplicate_encode(word):
-    #your code here
     counter = Counter(word.lower())
     s = ""
     for x in word.lower():
