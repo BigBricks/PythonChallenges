@@ -1,5 +1,4 @@
 def iq_test(numbers):
-    #your code here
     numbers = numbers.split(" ")
     even = [w for w in range(len(numbers)) if int(numbers[w]) % 2 == 0]
     odd = [w for w in range(len(numbers)) if int(numbers[w]) % 2 != 0]
